@@ -1,0 +1,144 @@
+/*  --------- Big Device --------  */
+
+@media (min-width:1025px){
+
+.ThingsYouNeed{
+    width:100%;
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-color:#F7F8FC;
+
+
+}
+.ThingsYouNeed_DivOne{
+    height:40%;
+    width:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    position:relative; 
+}
+.ThingsYouNeed_DivOne_one{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:4vh;
+}
+.ThingsYouNeed_DivOne_two{
+    position:absolute;
+    left:70%;
+}
+.ThingsYouNeed_DIvTwo{
+    height:40%;
+    width:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+
+}
+.ThingsYouNeed_DIvTwo_Sub{
+    height:80%;
+    width:80%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:2vw;
+    padding:2vw;
+
+    
+
+   
+}
+
+.ThingsYouNeed_DIvTwo_Sub_Main{
+
+    padding:5px;
+    border-radius:12px;
+    background-color:white;
+    
+}
+
+
+
+}
+
+
+/*-------- mobil device responsive ---------*/
+@media (max-width:600px){
+    .ThingsYouNeed{
+        width:100%;
+        height:80vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        background-color:#F7F8FC;
+    
+    
+    }
+    .ThingsYouNeed_DivOne{
+        height:40%;
+        width:100%;
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        text-align:center;
+        position:relative; 
+    }
+    .ThingsYouNeed_DivOne_one{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        gap:4vh;
+    }
+    .ThingsYouNeed_DivOne_two{
+        position:absolute;
+        left:70%;
+    }
+    .ThingsYouNeed_DIvTwo{
+        height:40%;
+        width:100%;
+    
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        
+    
+    }
+    .ThingsYouNeed_DIvTwo_Sub{
+        height:80%;
+        width:98%;
+    
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:2vw;
+        padding:2vw;
+    
+        
+    
+       
+    }
+    
+    .ThingsYouNeed_DIvTwo_Sub_Main{
+        border:1px solid black ;
+        padding:5px;
+        border-radius:12px;
+        background-color:white;
+        
+    }
+    
+}

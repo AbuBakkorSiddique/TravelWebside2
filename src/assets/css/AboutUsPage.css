@@ -1,0 +1,230 @@
+@media (min-width:769px){
+    .AboutUsPage{
+        height:60vh;
+        width:100%;
+    
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        overflow:hidden;
+        background-color:hsl(228, 45%, 98%);
+        
+    }
+    .AboutUsPage_sub{
+        height:80%;
+        width:80%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+  
+    }
+
+    .AboutUsPage_sub_Left{
+        width:50%;
+        height:100%;
+    
+        display:flex;
+        justify-content:center;
+        align-items:start;
+        flex-direction:column;
+
+    }
+    .AboutUsPage_sub_Left_Button_LeftButton{
+        background-color:white;
+        padding:5px ;
+
+        border-radius:50%;
+        color:black;
+    }
+    .AboutUsPage_sub_Left_Button_LeftButton:hover{
+        background-color:tomato;
+        padding:5px ;
+
+        border-radius:50%;
+        color:black;
+    }
+    .AboutUsPage_sub_Left_Button_RightButton{
+        background-color:white;
+        padding:5px ;
+  
+        border-radius:50%;
+        color:black;
+    }
+    .AboutUsPage_sub_Left_Button_RightButton:hover{
+        background-color:tomato;
+        padding:5px ;
+ 
+        border-radius:50%;
+        color:black;
+    }
+
+/*---------right side ----------*/
+.AboutUsPage_sub_right{
+    width:50%;
+    height:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+
+    
+}
+
+
+   .AboutUsPage_sub_right_sub{
+    height:100%;
+    width:100%;
+    display:flex;
+   justify-content:center;
+   align-items:center;
+
+ 
+   
+   }
+   .AboutUsPage_sub_right_sub_Box{
+    width:440px;
+    height:280px;
+    display:flex;
+    justify-content:center;
+    align-items:start;
+
+    padding:10px;
+    gap:3vh;
+    z-index:1;
+    border-radius:12px;
+    flex-direction:column;
+
+   }
+
+   .UserAboutSection{
+ 
+    position:absolute;
+    top:6px;
+    left:55px;
+    z-index:1;
+   }
+
+ 
+
+
+   
+}
+
+
+
+
+
+/*------- Mobile View ---------------*/
+
+
+@media (max-width:768px){
+    .AboutUsPage{
+        height:60vh;
+        width:100%;
+  
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        overflow:hidden;
+        background-color:hsl(228, 45%, 98%);
+        
+    }
+    .AboutUsPage_sub{
+        height:100%;
+        width:100%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+   
+        padding:8px;
+    }
+
+    .AboutUsPage_sub_Left{
+        width:50%;
+        height:100%;
+
+        display:flex;
+        justify-content:center;
+        align-items:start;
+        flex-direction:column;
+
+    }
+    .AboutUsPage_sub_Left_Button_LeftButton{
+        background-color:white;
+        padding:5px ;
+ 
+        border-radius:50%;
+        color:black;
+    }
+    .AboutUsPage_sub_Left_Button_LeftButton:hover{
+        background-color:tomato;
+        padding:5px ;
+ 
+        border-radius:50%;
+        color:black;
+    }
+    .AboutUsPage_sub_Left_Button_RightButton{
+        background-color:white;
+        padding:5px ;
+
+        border-radius:50%;
+        color:black;
+    }
+    .AboutUsPage_sub_Left_Button_RightButton:hover{
+        background-color:tomato;
+        padding:5px ;
+   
+        border-radius:50%;
+        color:black;
+    }
+
+/*---------right side ----------*/
+.AboutUsPage_sub_right{
+    width:50%;
+    height:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+
+    
+}
+
+
+   .AboutUsPage_sub_right_sub{
+    height:100%;
+    width:100%;
+    display:flex;
+   justify-content:center;
+   align-items:center;
+
+ 
+   
+   }
+   .AboutUsPage_sub_right_sub_Box{
+    width:440px;
+    height:330px;
+    display:flex;
+    justify-content:center;
+    align-items:start;
+    flex-direction:column;
+  
+    padding:10px;
+    gap:2vh;
+    z-index:1;
+    border-radius:12px;
+
+   }
+
+   .UserAboutSection{
+ 
+    position:absolute;
+    top:6px;
+    left:15px;
+    z-index:1;
+   }
+
+ 
+}

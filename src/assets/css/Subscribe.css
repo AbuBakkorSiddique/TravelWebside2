@@ -1,0 +1,126 @@
+@media (min-width:769px){
+
+.Subscribe{
+    height:80vh;
+    width:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.Subscribe_sub{
+    height:80%;
+    width:80%;
+   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-color:hsl(19, 95%, 60%);
+    border-radius:15px;
+}
+
+.Subscribe_sub_firstRow{
+    height:50%;
+    width:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.Subscribe_sub_secondRow{
+    height:50%;
+    width:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.Subscribe_sub_secondRow_SearchDiv{
+    height:60px;
+    width:55%;
+
+    background-color:white;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+}
+.Subscribe_sub_secondRow_SearchDiv_left{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5px;
+}
+.Subscribe_sub_secondRow_SearchDiv_left input {
+    outline:none;
+    
+}
+
+
+
+}
+
+/* ------------------ Mobile view------------------- */
+@media (max-width:768px){
+    .Subscribe{
+        height:80vh;
+        width:100%;
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .Subscribe_sub{
+        height:95%;
+        width:95%;
+       
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        background-color:hsl(19, 95%, 60%);
+        border-radius:15px;
+    }
+    
+    .Subscribe_sub_firstRow{
+        height:50%;
+    
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+    }
+    .Subscribe_sub_secondRow{
+        height:50%;
+        width:100%;
+    
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .Subscribe_sub_secondRow_SearchDiv{
+        height:60px;
+        width:80%;
+ 
+        background-color:white;
+        border-radius:10px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:10px;
+    }
+    .Subscribe_sub_secondRow_SearchDiv_left{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:5px;
+    }
+
+    .Subscribe_sub_secondRow_SearchDiv_left input {
+        outline:none;
+        
+    }
+    
+}

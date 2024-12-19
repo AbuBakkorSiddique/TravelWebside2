@@ -1,0 +1,155 @@
+@media(min-width:769px){
+    .GetUpdate{
+        height:80vh;
+        width:100%;
+      
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+
+    .GetUpdate_FirstROw{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:20%;
+        width:100%;
+ 
+
+    }
+
+    .GetUpdate_SecrondRow{
+        height:80%;
+        width:100%;
+    
+    }
+    .GetUpdate_SecrondRow_FristSLide,.GetUpdate_SecrondRow_FOurthSlide,.GetUpdate_SecrondRow_THirdSlide,.GetUpdate_SecrondRow_SecondSlide{
+        height:100%;
+        width:100%;
+  
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        gap:20px;
+        padding:60px;
+    }
+
+    .CommonCartFor_GetUpdatePage{
+        width:220px;
+        height:250px;
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        border-radius:10px;
+        gap:2px;
+
+    }
+    .CommonCartFor_GetUpdatePage_Image{
+        height:75%;
+        width:100%;
+        
+        border-radius:10px;
+        overflow:hidden;
+       
+    }
+
+    .CommonCartFor_GetUpdatePage_Paragraph{
+        height:15%;
+        width:100%;
+       
+        line-height:15px;
+    }
+    .CommonCartFor_GetUpdatePage_Date{
+        height:10%;
+        width:100%;
+      
+    }
+}
+
+
+/*    --------- MObile  View ------------*/
+@media (max-width:768px){
+    .GetUpdate{
+        height:80vh;
+        width:100%;
+   
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        overflow:hidden;
+    }
+
+    .GetUpdate_FirstROw{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:20%;
+        width:100%;
+    
+
+    }
+
+    .GetUpdate_SecrondRow{
+        height:80%;
+        width:100%;
+     
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .GetUpdate_SecrondRow_FristSLide,.GetUpdate_SecrondRow_FOurthSlide,.GetUpdate_SecrondRow_THirdSlide,.GetUpdate_SecrondRow_SecondSlide{
+        height:100%;
+   
+        display:flex;
+        justify-content:center;
+
+        align-items:center;
+        gap:5px;
+        padding-bottom:15px;
+        padding-left:3px;
+        padding-right:3px;
+      
+    }
+
+    .CommonCartFor_GetUpdatePage{
+        width:100%;
+        height:150px;
+      
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        border-radius:10px;
+        gap:2px;
+        font-size:10px;
+
+    }
+    .CommonCartFor_GetUpdatePage_Image{
+        height:75%;
+        width:100%;
+    
+        border-radius:10px;
+        overflow:hidden;
+       
+    }
+
+    .CommonCartFor_GetUpdatePage_Paragraph{
+        height:15%;
+
+        line-height:10px;
+    }
+    .CommonCartFor_GetUpdatePage_Date{
+        height:10%;
+        width:100%;
+       
+    }
+
+    .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+        pagination:absolute;
+        top:145px;
+    }
+}
